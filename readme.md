@@ -65,6 +65,14 @@ long-number = 12345.6789
 long-number = 12_345.6_789
 ```
 
+Scientific notation is supported.
+
+```lumen
+float = 314e-2
+float = 0.314e+1
+float = 0.314e1
+```
+
 ## Booleans
 
 Booleans can be either true or false. 
