@@ -65,6 +65,19 @@ long-number = 12345.6789
 long-number = 12_345.6_789
 ```
 
+Unsigned integers may also be expressed in HEX, OCT or BIN.
+
+```lumen
+hex = 0xFF
+hex = 0xF_F
+
+oct = 0o77
+oct = 0o7_7
+
+bin = 0b11
+bin = 0b1_1
+```
+
 Scientific notation is supported.
 
 ```lumen
