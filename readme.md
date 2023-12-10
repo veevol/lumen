@@ -207,6 +207,12 @@ colorscheme = {
 }
 ```
 
+## Implementations
+
+| Language | Repository                         |
+| -------- | ---------------------------------- |
+| C++      | https://github.com/veevol/lumencpp |
+
 ## File Extensions
 
 Lumen files should use the `.lm` file extension.
