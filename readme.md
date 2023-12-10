@@ -209,4 +209,4 @@ colorscheme = {
 
 ## File Extensions
 
-Lumen files should use the `.lu` file extension.
+Lumen files should use the `.lm` file extension.
