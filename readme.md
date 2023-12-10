@@ -21,6 +21,15 @@ contain digits and hyphens. Lumen is case-sensitive.
 _This-Key_IsAllowed1 = true
 ```
 
+Keys may be enclosed in `` ` `` and are parsed exactly like strings:
+
+```lumen
+`123` = 123
+`A Key ` = "A key with spaces"
+`\n` = "Newline character"
+`!*&([{}++-...\`.` = true
+```
+
 ## Comments
 
 Comments start with a `#`. 
@@ -151,6 +160,10 @@ settings.search-engine = "google"
 settings = {
     search-engine = "google"
 }
+```
+
+```lumen
+websites.`www.google.com` = true
 ```
 
 Key paths are scoped when assigning values inside of an object.
